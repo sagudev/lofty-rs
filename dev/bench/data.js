@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642867634728,
-  "repoUrl": "https://github.com/Serial-ATA/lofty-rs",
+  "lastUpdate": 1643000789221,
+  "repoUrl": "https://github.com/sagudev/lofty-rs",
   "entries": {
     "Benchmark": [
       {
@@ -3959,6 +3959,126 @@ window.BENCHMARK_DATA = {
             "name": "File reading (Inferred from Content)/RIFF",
             "value": 1405,
             "range": "± 11",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "16504129+sagudev@users.noreply.github.com",
+            "name": "sagu",
+            "username": "sagudev"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "504ac31cda79f3a032d9d68a029305eac375f564",
+          "message": "Apply suggestions from code review\n\nCo-authored-by: Alex <69764315+Serial-ATA@users.noreply.github.com>",
+          "timestamp": "2022-01-24T06:00:02+01:00",
+          "tree_id": "acd5b7e50fcc642819b866b36135310c03d46e0a",
+          "url": "https://github.com/sagudev/lofty-rs/commit/504ac31cda79f3a032d9d68a029305eac375f564"
+        },
+        "date": 1643000788253,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "File reading (Inferred from Path)/AIFF",
+            "value": 9303,
+            "range": "± 599",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Path)/APE",
+            "value": 20736,
+            "range": "± 1530",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Path)/FLAC",
+            "value": 13983,
+            "range": "± 1047",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Path)/MP4",
+            "value": 58747,
+            "range": "± 4170",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Path)/MP3",
+            "value": 26791,
+            "range": "± 1059",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Path)/VORBIS",
+            "value": 26000,
+            "range": "± 1336",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Path)/OPUS",
+            "value": 25179,
+            "range": "± 2121",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Path)/RIFF",
+            "value": 15373,
+            "range": "± 1421",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/AIFF",
+            "value": 1413,
+            "range": "± 104",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/APE",
+            "value": 1754,
+            "range": "± 115",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/FLAC",
+            "value": 1305,
+            "range": "± 99",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/MP4",
+            "value": 1432,
+            "range": "± 76",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/MP3",
+            "value": 1857,
+            "range": "± 110",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/VORBIS",
+            "value": 2158,
+            "range": "± 151",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/OPUS",
+            "value": 2200,
+            "range": "± 133",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/RIFF",
+            "value": 1730,
+            "range": "± 114",
             "unit": "ns/iter"
           }
         ]
