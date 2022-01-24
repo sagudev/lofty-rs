@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643000789221,
+  "lastUpdate": 1643002896841,
   "repoUrl": "https://github.com/sagudev/lofty-rs",
   "entries": {
     "Benchmark": [
@@ -4079,6 +4079,126 @@ window.BENCHMARK_DATA = {
             "name": "File reading (Inferred from Content)/RIFF",
             "value": 1730,
             "range": "± 114",
+            "unit": "ns/iter"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "samo.golez@outlook.com",
+            "name": "sagudev",
+            "username": "sagudev"
+          },
+          "committer": {
+            "email": "samo.golez@outlook.com",
+            "name": "sagudev",
+            "username": "sagudev"
+          },
+          "distinct": true,
+          "id": "bd896287b653ba3201afeb5cd503c99f5202abfe",
+          "message": "bit-depth for ALAC and getter for wav",
+          "timestamp": "2022-01-24T06:35:15+01:00",
+          "tree_id": "b5e393b0625bc26ca0797c73b44178c054b287ef",
+          "url": "https://github.com/sagudev/lofty-rs/commit/bd896287b653ba3201afeb5cd503c99f5202abfe"
+        },
+        "date": 1643002896015,
+        "tool": "cargo",
+        "benches": [
+          {
+            "name": "File reading (Inferred from Path)/AIFF",
+            "value": 9426,
+            "range": "± 608",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Path)/APE",
+            "value": 19679,
+            "range": "± 1426",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Path)/FLAC",
+            "value": 14339,
+            "range": "± 1004",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Path)/MP4",
+            "value": 59106,
+            "range": "± 4430",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Path)/MP3",
+            "value": 25933,
+            "range": "± 1862",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Path)/VORBIS",
+            "value": 29590,
+            "range": "± 1169",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Path)/OPUS",
+            "value": 26851,
+            "range": "± 1237",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Path)/RIFF",
+            "value": 14832,
+            "range": "± 1009",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/AIFF",
+            "value": 1585,
+            "range": "± 114",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/APE",
+            "value": 1999,
+            "range": "± 417",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/FLAC",
+            "value": 1188,
+            "range": "± 366",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/MP4",
+            "value": 1592,
+            "range": "± 129",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/MP3",
+            "value": 1905,
+            "range": "± 148",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/VORBIS",
+            "value": 2229,
+            "range": "± 189",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/OPUS",
+            "value": 2228,
+            "range": "± 142",
+            "unit": "ns/iter"
+          },
+          {
+            "name": "File reading (Inferred from Content)/RIFF",
+            "value": 1860,
+            "range": "± 142",
             "unit": "ns/iter"
           }
         ]
